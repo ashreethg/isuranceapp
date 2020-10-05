@@ -1,14 +1,14 @@
 {
   "name": "mynodelogin",
   "version": "1.0.0",
-  "description": "",
+  "description": "node api hosted on horeku",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "ashreeth",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -19,5 +19,14 @@
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashreethg/isuranceapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashreethg/isuranceapp/issues"
+  },
+  "homepage": "https://github.com/ashreethg/isuranceapp#readme"
 }
